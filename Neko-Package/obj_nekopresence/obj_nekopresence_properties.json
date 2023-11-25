@@ -1,0 +1,60 @@
+{
+  "Name": "obj_nekopresence",
+  "Sprite": null,
+  "isVisible": true,
+  "isSolid": false,
+  "isPersistent": true,
+  "parentObject": "",
+  "textureMask": "",
+  "collisionShape": 0,
+  "Events": [
+    {
+      "evtype": 0,
+      "subtype": 0,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Create_0"
+      ],
+      "collisionType": null
+    },
+    {
+      "evtype": 2,
+      "subtype": 0,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Alarm_0"
+      ],
+      "collisionType": null
+    },
+    {
+      "evtype": 2,
+      "subtype": 1,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Alarm_1"
+      ],
+      "collisionType": null
+    },
+    {
+      "evtype": 3,
+      "subtype": 0,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Step_0"
+      ],
+      "collisionType": null
+    },
+    {
+      "evtype": 7,
+      "subtype": 70,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Other_70"
+      ],
+      "collisionType": null
+    },
+    {
+      "evtype": 7,
+      "subtype": 4,
+      "eventCode": [
+        "gml_Object_obj_nekopresence_Other_4"
+      ],
+      "collisionType": null
+    }
+  ]
+}
